@@ -56,19 +56,18 @@ This project implements an advanced medical image segmentation pipeline that ena
 
 ## 🎬 Demo
 
-### Segmentation Results
-![Liver Segmentation Results](<img width="1968" height="1516" alt="Liver_MedSam_Segmentation" src="https://github.com/user-attachments/assets/168034e7-0886-47d6-9c92-40f077453770" />
-)
-![Brain Segmentation Results](<img width="1968" height="1516" alt="Brain_DeepLap_Segmentation" src="https://github.com/user-attachments/assets/3c1ef8ca-591f-45c5-a100-0589f859e869" />
-)
+### Liver Segmentation Results
+![Liver Segmentation Results](https://github.com/user-attachments/assets/168034e7-0886-47d6-9c92-40f077453770)
 
-### 3D Visualization
-![3D Visualization](docs/images/3d_visualization.png)
-*Interactive 3D visualization with custom colors and transparency*
 
-### Video Demonstration
-[![Demo Video](docs/images/video_thumbnail.png)](docs/videos/demo.mp4)
-*Click to watch the full demonstration video*
+### Liver 3D Visualization
+![Liver 3D Visualization](https://github.com/user-attachments/assets/f379c106-0f09-475b-90e9-3d5121fc7ecc)
+
+### Brain Segmentation Results
+![Brain Segmentation Results](https://github.com/user-attachments/assets/3c1ef8ca-591f-45c5-a100-0589f859e869)
+
+### Brain 3D Visualization
+![Brain 3D Visualization](https://github.com/user-attachments/assets/bc143bbc-2e66-47f6-8052-f82643f7a906)
 
 ## 🏗️ Architecture
 
@@ -100,12 +99,12 @@ This project implements an advanced medical image segmentation pipeline that ena
         ┌─────────┴──────────┐
         │                    │
         ▼                    ▼
-┌──────────────┐    ┌──────────────────┐
+┌──────────────┐    ┌─────────────────-─┐
 │  Evaluation  │    │  3D Visualization │
-│  - Dice      │    │  - Color Control  │
-│  - IoU       │    │  - Transparency   │
-│  - Hausdorff │    │  - Visibility     │
-└──────────────┘    └──────────────────┘
+│  - IoU       │    │                   │
+│  - Dice      │    │  - Part changing  │
+│  - Hausdorff │    │                   │
+└──────────────┘    └─────────────────-─┘
 ```
 
 ## 💾 Installation
@@ -256,25 +255,6 @@ where h(X, Y) = max_{x∈X} min_{y∈Y} ||x - y||
 - Unit: millimeters, lower is better
 - Measures maximum boundary error
 
-## 📈 Results
-
-### Quantitative Results
-
-| Model | Organ | Dice ↑ | IoU ↑ | Hausdorff ↓ (mm) |
-|-------|-------|--------|-------|------------------|
-| MedSAM | Liver | 0.947 | 0.901 | 3.21 |
-| MedSAM | Lungs | 0.962 | 0.927 | 2.84 |
-| MedSAM | Brain | 0.953 | 0.912 | 2.95 |
-| DeepLabV3+ | Liver | 0.932 | 0.874 | 4.12 |
-| DeepLabV3+ | Lungs | 0.951 | 0.908 | 3.47 |
-| DeepLabV3+ | Brain | 0.944 | 0.895 | 3.68 |
-| U-Net | Liver | 0.925 | 0.862 | 4.56 |
-| U-Net | Lungs | 0.946 | 0.899 | 3.89 |
-| U-Net | Brain | 0.938 | 0.885 | 4.02 |
-
-### Visual Comparison
-![Results Comparison](docs/images/results_table.png)
-
 ## 📁 Project Structure
 
 ```
@@ -373,33 +353,36 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
+**Project Maintainer**: [Radwa Hamdy]
+- Email: radwahamdy922@gmail.com
+- GitHub: [@RadwaHa](https://github.com/RadwaHa)
+- LinkedIn: [Your Profile](https://linkedin.com/in/radwa-hamdy1)
+
 **Project Maintainer**: [Your Name]
 - Email: your.email@example.com
 - GitHub: [@yourusername](https://github.com/yourusername)
 - LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
 
+- **Project Maintainer**: [Your Name]
+- Email: your.email@example.com
+- GitHub: [@yourusername](https://github.com/yourusername)
+- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+
+- **Project Maintainer**: [Your Name]
+- Email: your.email@example.com
+- GitHub: [@yourusername](https://github.com/yourusername)
+- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
 ## 📚 Citation
 
 If you use this project in your research, please cite:
 
 ```bibtex
 @software{medical_organ_segmentation,
-  author = {Your Name},
+  author = {Radwa Hamdy},
   title = {Medical Organ Segmentation System},
   year = {2024},
-  url = {https://github.com/YOUR-USERNAME/medical-organ-segmentation}
+  url = {https://github.com/RadwaHa/medical-organ-segmentation}
 }
-```
-
-## 🔮 Future Work
-
-- [ ] Add support for more organs (kidneys, heart, spleen)
-- [ ] Implement ensemble methods combining multiple models
-- [ ] Add real-time segmentation capability
-- [ ] Integrate DICOM file support
-- [ ] Develop web-based interface
-- [ ] Add automatic report generation
-- [ ] Implement active learning for continuous improvement
 
 ---
 
