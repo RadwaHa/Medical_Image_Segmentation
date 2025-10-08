@@ -37,9 +37,11 @@ This project implements an advanced medical image segmentation pipeline that ena
 - **U-Net**: Classic architecture optimized for biomedical image segmentation
 
 ### Supported Organs
-|            Organ            |
-|-----------------------------|
-|  Liver  |  Lungs  |  Brain  |
+|  Organ  |
+|---------|
+|  Liver  |
+|  Lungs  |
+|  Brain  |
 
 ### Evaluation Metrics
 - **Dice Coefficient**: Measures overlap between prediction and ground truth
