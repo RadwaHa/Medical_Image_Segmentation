@@ -23,14 +23,13 @@ A comprehensive medical image segmentation system for multi-organ segmentation (
 
 ## 🔍 Overview
 
-This project implements an advanced medical image segmentation pipeline that enables healthcare professionals and researchers to accurately segment and visualize three critical organs (liver, lungs, and brain) from medical imaging data. The system integrates three powerful deep learning architectures and provides an intuitive GUI for interactive analysis.
+This project implements an advanced medical image segmentation pipeline that enables healthcare professionals and researchers to accurately segment and visualize three critical organs (liver, lungs, and brain) from medical imaging data. The system integrates three powerful deep learning architectures.
 
 ### Key Highlights
 - **Multi-Model Approach**: Leverages MedSAM, DeepLabV3+, and U-Net for robust segmentation
 - **Multi-Organ Support**: Segments liver, lungs, and brain with distinct color-coded outputs
 - **Comprehensive Evaluation**: Implements Dice coefficient, IoU, and Hausdorff distance metrics
 - **Interactive 3D Visualization**: Real-time 3D rendering with customizable parameters
-- **User-Friendly GUI**: Intuitive interface for organ/model selection and visualization control
 
 ## ✨ Features
 
@@ -40,11 +39,9 @@ This project implements an advanced medical image segmentation pipeline that ena
 - **U-Net**: Classic architecture optimized for biomedical image segmentation
 
 ### Supported Organs
-| Organ | Default Color | Description |
-|-------|--------------|-------------|
-| 🫀 Liver | Red | Hepatic tissue segmentation |
-| 🫁 Lungs | Blue | Pulmonary region segmentation |
-| 🧠 Brain | Green | Neural tissue segmentation |
+|            Organ            |
+|-----------------------------|
+|  Liver  |  Lungs  |  Brain  |
 
 ### Evaluation Metrics
 - **Dice Coefficient**: Measures overlap between prediction and ground truth
@@ -52,22 +49,18 @@ This project implements an advanced medical image segmentation pipeline that ena
 - **Hausdorff Distance**: Evaluates boundary accuracy in millimeters
 
 ### Visualization Features
-- Real-time 3D rendering using VTK
-- Customizable organ colors (RGB sliders)
-- Adjustable transparency/opacity (0-100%)
-- Toggle visibility for individual organs
+- Real-time 3D rendering
+- 3 Colored organ parts
 - Multiple viewing angles and rotation
 - Export capabilities for visualizations
 
 ## 🎬 Demo
 
-### GUI Interface
-![GUI Interface](docs/images/gui_interface.png)
-*Main interface showing model selection, organ options, and control panels*
-
 ### Segmentation Results
-![Segmentation Results](docs/images/segmentation_comparison.png)
-*Comparison of segmentation results across three models*
+![Liver Segmentation Results](<img width="1968" height="1516" alt="Liver_MedSam_Segmentation" src="https://github.com/user-attachments/assets/168034e7-0886-47d6-9c92-40f077453770" />
+)
+![Brain Segmentation Results](<img width="1968" height="1516" alt="Brain_DeepLap_Segmentation" src="https://github.com/user-attachments/assets/3c1ef8ca-591f-45c5-a100-0589f859e869" />
+)
 
 ### 3D Visualization
 ![3D Visualization](docs/images/3d_visualization.png)
