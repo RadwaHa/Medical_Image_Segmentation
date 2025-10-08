@@ -11,11 +11,10 @@ A comprehensive medical image segmentation system for multi-organ segmentation (
 - [Features](#features)
 - [Demo](#demo)
 - [Architecture](#architecture)
+- [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Models](#models)
 - [Evaluation Metrics](#evaluation-metrics)
-- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [Acknowledgments](#acknowledgments)
 
@@ -107,105 +106,41 @@ This project implements an advanced medical image segmentation pipeline that ena
 └──────────────┘    └─────────────────-─┘
 ```
 
-## 💾 Installation
+## Requirements
 
-### Prerequisites
-- Python 3.8 or higher
+### Hardware
+- A mouse or a trackpad for navigation and interaction
 - CUDA-compatible GPU (recommended)
 - 8GB+ RAM
 - 5GB+ free disk space
+
+### Software
+- Python 3.8 or higher
+- Required libraries:
+  - Numpy
+  - torch
+  - Matplotlib
+  - nibabel
+  - scipy
+  
+
+## 💾 Installation
 
 ### Setup Instructions
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR-USERNAME/medical-organ-segmentation.git
-cd medical-organ-segmentation
+git clone https://github.com/RadwaHa/Medical_Image_Segmentation.git
 ```
 
-2. **Create virtual environment**
+2. **Navigate to the project directory**
 ```bash
-# Using venv
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Or using conda
-conda create -n medseg python=3.8
-conda activate medseg
+cd Medical_Image_Segmentation
 ```
 
 3. **Install dependencies**
 ```bash
 pip install -r requirements.txt
-```
-
-4. **Download pre-trained models**
-```bash
-# Script to download model checkpoints
-python scripts/download_models.py
-```
-
-5. **Verify installation**
-```bash
-python -c "import torch; print(torch.__version__); print(torch.cuda.is_available())"
-```
-
-## 🚀 Usage
-
-### Basic Usage
-
-```bash
-# Launch GUI application
-python main.py
-```
-
-### Command Line Interface
-
-```bash
-# Segment single image
-python src/segmentation/segment.py \
-    --input path/to/image.nii.gz \
-    --model unet \
-    --organ liver \
-    --output results/
-
-# Batch processing
-python src/segmentation/batch_segment.py \
-    --input_dir data/images/ \
-    --model medsam \
-    --organ brain
-
-# Evaluate predictions
-python src/evaluation/evaluate.py \
-    --predictions results/predictions/ \
-    --ground_truth data/ground_truth/ \
-    --metrics dice iou hausdorff
-```
-
-### Programmatic Usage
-
-```python
-from src.models import MedSAM, DeepLabV3Plus, UNet
-from src.segmentation import Segmentor
-from src.evaluation import compute_metrics
-from src.visualization import Visualizer3D
-
-# Initialize model
-model = UNet(in_channels=1, out_channels=3)
-model.load_checkpoint('models/unet_checkpoint.pth')
-
-# Perform segmentation
-segmentor = Segmentor(model)
-segmentation = segmentor.segment(image, organ='liver')
-
-# Evaluate
-metrics = compute_metrics(segmentation, ground_truth)
-print(f"Dice: {metrics['dice']:.4f}")
-
-# Visualize
-visualizer = Visualizer3D()
-visualizer.add_organ(segmentation, color=(255, 0, 0), opacity=0.8)
-visualizer.show()
 ```
 
 ## 🤖 Models
@@ -254,66 +189,6 @@ where h(X, Y) = max_{x∈X} min_{y∈Y} ||x - y||
 ```
 - Unit: millimeters, lower is better
 - Measures maximum boundary error
-
-## 📁 Project Structure
-
-```
-medical-organ-segmentation/
-│
-├── README.md                    # Project documentation
-├── requirements.txt             # Python dependencies
-├── .gitignore                  # Git ignore rules
-├── LICENSE                     # License file
-│
-├── main.py                     # Main application entry point
-│
-├── src/                        # Source code
-│   ├── __init__.py
-│   ├── models/                 # Model implementations
-│   │   ├── __init__.py
-│   │   ├── medsam.py
-│   │   ├── deeplabv3.py
-│   │   └── unet.py
-│   ├── segmentation/           # Segmentation pipeline
-│   │   ├── __init__.py
-│   │   ├── segmentor.py
-│   │   └── preprocessing.py
-│   ├── evaluation/             # Evaluation metrics
-│   │   ├── __init__.py
-│   │   └── metrics.py
-│   ├── visualization/          # 3D visualization
-│   │   ├── __init__.py
-│   │   └── visualizer_3d.py
-│   └── gui/                    # GUI components
-│       ├── __init__.py
-│       └── main_window.py
-│
-├── data/                       # Data directory
-│   ├── sample/                 # Sample images
-│   └── README.md
-│
-├── models/                     # Trained model checkpoints
-│   ├── medsam_checkpoint.pth
-│   ├── deeplabv3_checkpoint.pth
-│   └── unet_checkpoint.pth
-│
-├── results/                    # Output directory
-│   └── .gitkeep
-│
-├── docs/                       # Documentation
-│   ├── images/                 # Screenshots
-│   ├── videos/                 # Demo videos
-│   └── user_guide.md
-│
-├── tests/                      # Unit tests
-│   ├── test_models.py
-│   ├── test_metrics.py
-│   └── test_visualization.py
-│
-└── scripts/                    # Utility scripts
-    ├── download_models.py
-    └── prepare_data.py
-```
 
 ## 🤝 Contributing
 
