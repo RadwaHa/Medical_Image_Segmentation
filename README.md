@@ -15,10 +15,8 @@ A comprehensive medical image segmentation system for multi-organ segmentation (
 - [Usage](#usage)
 - [Models](#models)
 - [Evaluation Metrics](#evaluation-metrics)
-- [Results](#results)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## 🔍 Overview
@@ -72,29 +70,29 @@ This project implements an advanced medical image segmentation pipeline that ena
 ## 🏗️ Architecture
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                    Medical Image Input                   │
-└─────────────────────┬───────────────────────────────────┘
+┌───────────────────────────────────────────────┐
+│              Medical Image Input              │
+└─────────────────────┬─────────────────────────┘
                       │
          ┌────────────┴────────────┐
          │                         │
          ▼                         ▼
-┌─────────────────┐       ┌─────────────────┐
-│  Model Selection │       │  Organ Selection │
-│  - MedSAM       │       │  - Liver         │
-│  - DeepLabV3+   │       │  - Lungs         │
-│  - U-Net        │       │  - Brain         │
-└────────┬─────────┘       └────────┬─────────┘
-         │                         │
-         └────────────┬────────────┘
+┌────────────────────┐       ┌────────────────────┐
+│  - Model Selection │       │  - Organ Selection │
+│  - MedSAM          │       │  - Liver           │
+│  - DeepLabV3+      │       │  - Lungs           │
+│  - U-Net           │       │  - Brain           │
+└────────┬───────────┘       └────────┬───────────┘
+         │                            │
+         └────────────┬───────────────┘
                       │
                       ▼
-         ┌────────────────────────┐
+         ┌─────────────────────────┐
          │  Segmentation Pipeline  │
          │  - Preprocessing        │
          │  - Model Inference      │
          │  - Post-processing      │
-         └────────┬───────────────┘
+         └────────┬────────────────┘
                   │
         ┌─────────┴──────────┐
         │                    │
@@ -340,10 +338,6 @@ We welcome contributions! Please follow these steps:
 - Include unit tests for new features
 - Update documentation as needed
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **MedSAM Team** for the foundation model
@@ -356,12 +350,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Project Maintainer**: [Radwa Hamdy]
 - Email: radwahamdy922@gmail.com
 - GitHub: [@RadwaHa](https://github.com/RadwaHa)
-- LinkedIn: [Your Profile](https://linkedin.com/in/radwa-hamdy1)
+- LinkedIn: [Radwa Hamdy](https://linkedin.com/in/radwa-hamdy1)
 
-**Project Maintainer**: [Your Name]
-- Email: your.email@example.com
+**Project Maintainer**: [Habiba Ibrahem]
+- Email: habeba.ibrahem2016@gmail.com
 - GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+- LinkedIn: [Your Profile](https://linkedin.com/in/habeba-zaki)
 
 - **Project Maintainer**: [Your Name]
 - Email: your.email@example.com
