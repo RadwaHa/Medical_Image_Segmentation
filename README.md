@@ -238,6 +238,9 @@ We welcome contributions! Please follow these steps:
 - GitHub: [@Habiba753-beep](https://github.com/Habiba753-beep)
 
 **Project Contributer**: Dana Hamad
+- Email: DANA.JAZAR06@eng-st.cu.edu.eg
+- GitHub: [@hamaddana6-droid](https://github.com/hamaddana6-droid)
+- LinkedIn: [Dana Hamad](https://linkedin.com/in/dana-hamad-868a82385)
 
 ## 📚 Citation
 
@@ -254,7 +257,5 @@ If you use this project in your research, please cite:
 ---
 
 **⭐ If you find this project helpful, please consider giving it a star!**
-
-*Last Updated: October 2025*
 
 *Last Updated: October 2025*
