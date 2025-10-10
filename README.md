@@ -6,16 +6,16 @@
 A comprehensive medical image segmentation system for multi-organ segmentation (liver, lungs, brain) using state-of-the-art deep learning models with interactive 3D visualization and quantitative evaluation metrics.
 
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Demo](#demo)
-- [Architecture](#architecture)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Demo](#-demo)
+- [Architecture](#%EF%B8%8F-architecture)
 - [Requirements](#requirements)
-- [Installation](#installation)
-- [Models](#models)
+- [Installation](#-installation)
+- [Models](#-models)
 - [Evaluation Metrics](#evaluation-metrics)
-- [Contributing](#contributing)
-- [Acknowledgments](#acknowledgments)
+- [Contributing](#-contributing)
+- [Acknowledgments](#-acknowledgments)
 
 ## 🔍 Overview
 
@@ -223,20 +223,21 @@ We welcome contributions! Please follow these steps:
 
 ## 📧 Contact
 
-**Project Contributer**: [Radwa Hamdy]
+**Project Contributer**: Radwa Hamdy
 - Email: radwahamdy922@gmail.com
 - GitHub: [@RadwaHa](https://github.com/RadwaHa)
 - LinkedIn: [Radwa Hamdy](https://linkedin.com/in/radwa-hamdy1)
 
-**Project Contributer**: [Habiba Ibrahem]
+**Project Contributer**: Habiba Ibrahem
 - Email: habeba.ibrahem2016@gmail.com
+- GitHub: [@habebai558-lgtm](https://github.com/habebai558-lgtm)
 - LinkedIn: [Habiba Ibrahem](https://linkedin.com/in/habeba-zaki)
 
-- **Project Contributer**: [Habiba Ahmed]
+**Project Contributer**: Habiba Ahmed
 - Email: ahmdhbybh753@gmail.com
 - GitHub: [@Habiba753-beep](https://github.com/Habiba753-beep)
 
-- **Project Contributer**: [Dana Hamad]
+**Project Contributer**: Dana Hamad
 
 ## 📚 Citation
 
@@ -246,12 +247,14 @@ If you use this project in your research, please cite:
 @software{Medical_Image_Segmentation,
   author = {Radwa Hamdy},
   title = {Medical Image Segmentation System},
-  year = {2024},
+  year = {2025},
   url = {https://github.com/RadwaHa/Medical_Image_Segmentation}
 }
 
 ---
 
 **⭐ If you find this project helpful, please consider giving it a star!**
+
+*Last Updated: October 2025*
 
 *Last Updated: October 2025*
