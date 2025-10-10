@@ -225,21 +225,21 @@ We welcome contributions! Please follow these steps:
 
 **Project Contributer**: Radwa Hamdy
 - Email: radwahamdy922@gmail.com
-- GitHub: [@RadwaHa](https://github.com/RadwaHa)
+- GitHub: [RadwaHa](https://github.com/RadwaHa)
 - LinkedIn: [Radwa Hamdy](https://linkedin.com/in/radwa-hamdy1)
 
 **Project Contributer**: Habiba Ibrahem
 - Email: habeba.ibrahem2016@gmail.com
-- GitHub: [@habebai558-lgtm](https://github.com/habebai558-lgtm)
+- GitHub: [habebai558-lgtm](https://github.com/habebai558-lgtm)
 - LinkedIn: [Habiba Ibrahem](https://linkedin.com/in/habeba-zaki)
 
 **Project Contributer**: Habiba Ahmed
 - Email: ahmdhbybh753@gmail.com
-- GitHub: [@Habiba753-beep](https://github.com/Habiba753-beep)
+- GitHub: [Habiba753-beep](https://github.com/Habiba753-beep)
 
 **Project Contributer**: Dana Hamad
 - Email: DANA.JAZAR06@eng-st.cu.edu.eg
-- GitHub: [@hamaddana6-droid](https://github.com/hamaddana6-droid)
+- GitHub: [hamaddana6-droid](https://github.com/hamaddana6-droid)
 - LinkedIn: [Dana Hamad](https://linkedin.com/in/dana-hamad-868a82385)
 
 ## 📚 Citation
