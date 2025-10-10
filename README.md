@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 A comprehensive medical image segmentation system for multi-organ segmentation (liver, lungs, brain) using state-of-the-art deep learning models with interactive 3D visualization and quantitative evaluation metrics.
 
@@ -224,35 +223,31 @@ We welcome contributions! Please follow these steps:
 
 ## 📧 Contact
 
-**Project Maintainer**: [Radwa Hamdy]
+**Project Contributer**: [Radwa Hamdy]
 - Email: radwahamdy922@gmail.com
 - GitHub: [@RadwaHa](https://github.com/RadwaHa)
 - LinkedIn: [Radwa Hamdy](https://linkedin.com/in/radwa-hamdy1)
 
-**Project Maintainer**: [Habiba Ibrahem]
+**Project Contributer**: [Habiba Ibrahem]
 - Email: habeba.ibrahem2016@gmail.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/habeba-zaki)
+- LinkedIn: [Habiba Ibrahem](https://linkedin.com/in/habeba-zaki)
 
-- **Project Maintainer**: [Your Name]
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+- **Project Contributer**: [Habiba Ahmed]
+- Email: ahmdhbybh753@gmail.com
+- GitHub: [@Habiba753-beep](https://github.com/Habiba753-beep)
 
-- **Project Maintainer**: [Your Name]
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+- **Project Contributer**: [Dana Hamad]
+
 ## 📚 Citation
 
 If you use this project in your research, please cite:
 
 ```bibtex
-@software{medical_organ_segmentation,
+@software{Medical_Image_Segmentation,
   author = {Radwa Hamdy},
-  title = {Medical Organ Segmentation System},
+  title = {Medical Image Segmentation System},
   year = {2024},
-  url = {https://github.com/RadwaHa/medical-organ-segmentation}
+  url = {https://github.com/RadwaHa/Medical_Image_Segmentation}
 }
 
 ---
